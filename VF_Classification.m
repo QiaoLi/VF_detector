@@ -1,5 +1,6 @@
 function VF_output = VF_Classification(record)
-% Read data file and classify VF / Non_VF
+% VF_Classification
+% Read WFDB format data file and classify VF / Non_VF
 % input: 
 %    record: record name of WFDB format data file
 %
@@ -15,6 +16,27 @@ function VF_output = VF_Classification(record)
 %
 % Usage: VF_output = VF_Classification('cu01')
 %
+% Copyright (C) 2013 Qiao Li
+% Oxford university, Intelligent Patient Monitoring Group - Oxford 2013
+% qiaolibme AT gmail DOT com
+%
+% Last updated: 06-27-2013
+% 
+% This program is free software; you can redistribute it and/or modify it 
+% under the terms of the GNU General Public License as published by the 
+% Free Software Foundation; either version 2 of the License, or (at your 
+% option) any later version.
+% 
+% This program is distributed in the hope that it will be useful, but 
+% WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+% or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+% for more details.
+%
+% Please cite this publication when referencing this program:
+% Q Li, C Rajagopalan, GD Clifford, Ventricular fibrillation and tachycardia 
+% classification using a machine learning approach, IEEE Transactions on 
+% Biomedical Engineering, 61 (6), 1607-1613, 2014.
+
 
 % suppose the sampling frequency is 250
 % if not, please resample the data to 250Hz using resample()
