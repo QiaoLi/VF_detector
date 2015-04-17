@@ -20,6 +20,7 @@ function VF_output = VF_Classification(record)
 % Oxford university, Intelligent Patient Monitoring Group - Oxford 2013
 % qiaolibme AT gmail DOT com
 %
+% Version 0.0.1
 % Last updated: 06-27-2013
 % 
 % This program is free software; you can redistribute it and/or modify it 
